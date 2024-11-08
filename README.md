@@ -5,14 +5,14 @@ Model reaches the accuracy of over 98%, and it can accurately tell Nailong from 
   <tr>
     <td align="center">
       <img src="pictures/1.jpg" alt="Nailong" width="300"><br>
-      <sub><b>Nailong</b></sub>
+      <p><b>Nailong</b></p>
     </td>
     <td align="center">
       <img src="pictures/2.jpg" alt="Konote Fujita" width="300"><br>
-      <sub><b>Konote Fujita</b></sub>
+      <p><b>Konote Fujita</b></p>
     </td>
   </tr>
-</table>    
+</table>
 
 ### Just For Fun!!!  
 #### Trained by network VGG11   
