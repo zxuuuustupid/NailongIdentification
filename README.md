@@ -15,7 +15,7 @@ Model reaches the accuracy of over 98%, and it can accurately tell Nailong from 
 </table>
 
 ### Just For Fun!!!   
-Watch the video on bilibili: https://www.bilibili.com/video/BV18gDdY3EV6/ (CN)
+Watch the demo video on bilibili: https://www.bilibili.com/video/BV18gDdY3EV6/ (CN)
 #### Trained by network VGG11   
 Process are visualized as figure including loss and accuracy    
 ## Dataset  
