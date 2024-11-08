@@ -1,6 +1,19 @@
 # NailongIdentification
 A simple model for Identification of nailong based on deep learning  
 Model reaches the accuracy of over 98%, and it can accurately tell Nailong from Konote Fujita！  
+<style>
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+  }
+  figcaption {
+    margin-top: 5px;
+    font-size: 14px; /* 可以调整字体大小 */
+    color: #555; /* 调整颜色 */
+  }
+</style>
+
 <table>
   <tr>
     <td>
