@@ -11,8 +11,8 @@ from nailong.model.dataset import SimpleImageFolderDataset
 
 root_dir = r'D:\Projects\torch\nailong\dataset\train'
 root_dir2 = r'D:\Projects\torch\nailong\dataset\test'
-model_name = 'VGG'
-epoch_num = 20
+model_name = 'VGG11-Nailong'
+epoch_num = 10
 # 定义变换操作
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
