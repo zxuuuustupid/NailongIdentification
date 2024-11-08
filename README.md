@@ -1,6 +1,6 @@
 # NailongIdentification
 A simple model for Identification of nailong based on deep learning  
-Model reaches the accuracy of over 98%, and it can accurately tell Nailong from Konote Fujita！  
+Model reaches the accuracy of over 98%, and it can accurately tell Nailong from Konote Fujita! (of course also any other items hhh)   
 <table>
   <tr>
     <td align="center">
