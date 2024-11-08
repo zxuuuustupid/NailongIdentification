@@ -25,7 +25,7 @@ def setup_ui(win, model):
 
     # 显示图片的标签，设置初始注释文字并居中放置
     img_label = tk.Label(
-        win, text="Press Choose Image to Choose\nPress Predict Image to Predict",
+        win, text="click \"Choose Image\" to choose\nclick \"Predict Image\" to predict",
         font=("Comic Sans MS", 18, "italic"), bg="#D3D3D3", fg="#555555",
         relief="ridge", borderwidth=2
     )
@@ -59,10 +59,11 @@ def setup_ui(win, model):
     predict_button.pack(side="left", padx=10)
 
     # 右下角添加注释文本
-    footer_label = tk.Label(win, text="Made by Zxuuuu just for fun", font=("Arial", 10, "italic"), bg="#E6F7FF", fg="#666666")
+    footer_label = tk.Label(win, text="Made by Zxuuuu just for fun", font=("Arial", 10), bg="#E6F7FF", fg="#666666")
     footer_label.place(relx=1.0, rely=1.0, anchor="se", x=-10, y=-10)  # 设置在窗口右下角
 
 
+# 选择图片并显示
 # 选择图片并显示
 def load_image(img_label):
     global current_image_path
@@ -76,7 +77,11 @@ def load_image(img_label):
         img_label.image = image_tk
         current_image_path = file_path  # 保存路径供预测使用
 
+        # 恢复原始背景颜色
+        img_label.master.configure(bg="#E6F7FF")  # 设置为浅蓝色背景
 
+
+# 进行预测并显示结果
 # 进行预测并显示结果
 def predict_image(img_label, result_label, model):
     if 'current_image_path' not in globals():
@@ -86,12 +91,28 @@ def predict_image(img_label, result_label, model):
     predicted_label = utils.predict_image(model, image_tensor)
     result_label.config(text=f"Result: {utils.label_list[predicted_label]}")
 
-    # 如果label为1，开始摇晃效果
+    # 如果label为1，开始摇晃效果并改变背景颜色
     if predicted_label == 1:
         shake_image(img_label)  # 调用摇晃函数
+        img_label.master.configure(bg="#FFDAB9")  # 更改背景为淡橙色
+        enlarge_and_color_text(result_label)  # 调用字幕放大和彩色效果
 
+    # 播放音乐
     if predicted_label == 1:
         utils.play_music("nailong.mp3")  # 播放音乐
+
+
+# 实现字幕放大和变色效果
+def enlarge_and_color_text(label):
+    # 设置放大和彩色效果
+    label.config(font=("Comic Sans MS", 24, "bold"), fg="red")  # 放大并设置为红色
+
+    def reset_text_style():
+        # 恢复原始字体样式
+        label.config(font=("Comic Sans MS", 14), fg="#333333")
+
+    # 在 2 秒后恢复原样
+    label.after(2000, reset_text_style)
 
 
 # 实现摇晃效果

@@ -6,7 +6,7 @@ from torchvision import transforms
 import pygame
 from nailong.model.CNN import VGG
 
-label_list = ["Relax,just normal image", "Holy shit! what fucking it is?!"]
+label_list = ["Relax, normal image", "Nailong!!! what the fuck"]
 
 # 初始化 Pygame
 pygame.init()
