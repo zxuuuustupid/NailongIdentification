@@ -14,9 +14,10 @@ Model reaches the accuracy of over 98%, and it can accurately tell Nailong from 
   </tr>
 </table>
 
-### Just For Fun!!!  
+### Just For Fun!!!   
+Watch the video on bilibili: https://www.bilibili.com/video/BV18gDdY3EV6/ (CN)
 #### Trained by network VGG11   
-Process are visualized as figure including loss and accuracy  
+Process are visualized as figure including loss and accuracy    
 ## Dataset  
 Dataset are download from https://huggingface.co/datasets/XiC1/nailong-dataset  
 ## Music  
