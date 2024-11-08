@@ -25,4 +25,4 @@ Music and inspiration come from https://www.douyin.com/video/7433341884916862260
 ## Environment  
 You need `Python3.x`, `os`, `torch`, `torchvision`, `PIL`, `matplotlib`, `tkinter`, `pygame`  
 ## How to use  
-Download the whole project, make sure your environment is useful. Run `api.py`.  
+Download the whole project, make sure your environment is complete. Run `api.py`.  
