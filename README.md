@@ -3,8 +3,8 @@ A simple model for Identification of nailong based on deep learning
 Model reaches the accuracy of over 98%, and it can accurately tell Nailong from Konote Fujita！  
 <table>
   <tr>
-    <td><img src="pictures/1.jpg" alt="Nailong" width="300"></td>
-    <td><img src="pictures/2.jpg" alt="Konote Fujita" width="300"></td>
+    <td><img src="pictures/1.jpg" alt="Nailong" width="150"></td>
+    <td><img src="pictures/2.jpg" alt="Konote Fujita" width="150"></td>
   </tr>
 </table>
 
