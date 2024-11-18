@@ -89,7 +89,7 @@ def predict_image(img_label, result_label, model):
         return
     image_tensor = utils.preprocess_image(current_image_path)
     predicted_label = utils.predict_image(model, image_tensor)
-    result_label.config(text=f"Result: {utils.label_list[predicted_label]}")
+    result_label.config(text=f"{utils.label_list[predicted_label]}")
 
     # 如果label为1，开始摇晃效果并改变背景颜色
     if predicted_label == 1:
