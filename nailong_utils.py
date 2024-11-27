@@ -4,7 +4,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 import pygame
-from nailong.model.CNN import VGG
+from model.CNN import VGG
 
 label_list = ["Relax, normal image", "Nailong!!! what the fuck"]
 
