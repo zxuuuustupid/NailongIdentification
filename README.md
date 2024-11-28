@@ -22,7 +22,8 @@ Process are visualized as figure including loss and accuracy: [Loss and Accuracy
 Dataset are download from https://huggingface.co/datasets/XiC1/nailong-dataset  
 ## Music  
 Music and inspiration come from https://www.douyin.com/video/7433341884916862260
-## Environment  
+## Environment    
+Your computer must have a **GPU**
 You need `Python3.x`, `os`, `torch`, `torchvision`, `PIL`, `matplotlib`, `tkinter`, `pygame`  
 ## How to use  
 Download the whole project, make sure your environment is complete. Run `api.py`.  
