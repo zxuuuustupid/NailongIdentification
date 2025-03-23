@@ -3,4 +3,4 @@ pictures/
 *.pyc
 *.pyo
 *.swp
-datasets/
+dataset/
