@@ -1,0 +1,6 @@
+__pycache__/
+pictures/
+*.pyc
+*.pyo
+*.swp
+datasets/
