@@ -1,6 +1,9 @@
 # NailongIdentification
-A simple model for Identification of nailong based on deep learning  
-Model reaches the accuracy of over 98%, and it can accurately tell **Nailong** from **Konote Fujita**! (of course also any other items hhh)   
+A deep learning model for identifying Nailong with high accuracy.
+
+This model achieves over **98% accuracy** and can reliably distinguish **Nailong** from **Konote Fujita** (and any other items!).
+
+## Demo
 <table>
   <tr>
     <td align="center">
@@ -14,16 +17,24 @@ Model reaches the accuracy of over 98%, and it can accurately tell **Nailong** f
   </tr>
 </table>
 
-### Just For Fun!!!   
-Watch the demo video on bilibili: https://www.bilibili.com/video/BV18gDdY3EV6/ (CN)
-#### Trained by network VGG11   
-Process are visualized as figure including loss and accuracy: [Loss and Accuracy](model/results/VGG11-Nailong_plot.png)    
-## Dataset  
-Dataset are download from https://huggingface.co/datasets/XiC1/nailong-dataset  
-## Music  
-Music and inspiration come from https://www.douyin.com/video/7433341884916862260
-## Environment    
-Your computer must have a **GPU**       
-You need `Python3.x`, `os`, `torch`, `torchvision`, `PIL`, `matplotlib`, `tkinter`, `pygame`  
-## How to use  
-Download the whole project, make sure your environment is complete. Run `api.py`.  
+### Just For Fun!
+Watch the demo video on Bilibili: [Demo Video](https://www.bilibili.com/video/BV18gDdY3EV6/) (CN)
+
+## Model
+- **Network:** VGG11
+- **Training Visualization:** Includes loss and accuracy plots [Loss and Accuracy](model/results/VGG11-Nailong_plot.png)
+
+## Dataset
+Download the dataset from: [HuggingFace Nailong Dataset](https://huggingface.co/datasets/XiC1/nailong-dataset)
+
+## Music & Inspiration
+Inspired by and music sourced from: [Douyin Video](https://www.douyin.com/video/7433341884916862260)
+
+## Environment Requirements
+- **GPU** is required for training and inference.
+- Python packages: `Python3.x`, `os`, `torch`, `torchvision`, `PIL`, `matplotlib`, `tkinter`, `pygame`
+
+## How to Use
+1. Download the entire project repository.
+2. Ensure all environment dependencies are installed.
+3. Run `api.py` to start the application.
